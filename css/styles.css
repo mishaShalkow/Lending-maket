@@ -433,7 +433,6 @@ body * {
     color: #363636;
     margin-top: 7px;
     width: 400px;
-    color: #363636;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -469,11 +468,14 @@ body * {
 
 .onlineControl-checkbox_label_form{
     display: inline-flex;
+    position: relative;
+    left: -20px;
     width: 18px;
     height: 18px;
     background: #E3B873;
     color: #fff;
     justify-content: center;
+    cursor: pointer;
 }
 .onlineControl-checkbox_label_form::before{
     content:"\2714";
@@ -569,4 +571,160 @@ body * {
     top: 133px;
     left: 53px;
     text-align: center;
+}
+
+.clientSection_cont {
+    background-image: url('../images/clientFon.png');
+    background-repeat:no-repeat;
+    height: 645px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.clientSection_cont_list {
+    width: 375px;
+}
+
+.clientSection_cont_label {
+    border-radius: 200px;
+    height: 41px;
+    width: 41px;
+    text-align: center;
+    margin-top: 10px;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    font-family: "yeseva";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.clientSection_cont_listOf {
+    display: flex;
+    padding-top: 100px;
+    width: 350px;
+    height: 50px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.clientSection_cont_txt {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.clientSection_cont_form_reg {
+    width: 506px;
+    height: 509px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    margin-top: 100px;
+}
+
+.clientSection_cont_form_reg_title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+
+.inf_client {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.vvodInf {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #131313;
+    width: 408px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+.clientSection_cont_form_block {
+    margin-top: 39px;
+    margin-left: 49px;
+}
+
+.clientSection_cont_form-checkbox {
+    margin-top: 20px;
+    margin-left: 49px;
+}
+
+.clientSection_cont_form-checkbox_label_form{
+    display: inline-flex;
+    position: relative;
+    left: -20px;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+}
+.clientSection_cont_form-checkbox_label_form::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.clientSection_cont_form-checkbox_input:checked + .clientSection_cont_form-checkbox_label_form::before{
+    opacity: 1;
+}
+
+.clientSection_cont_form-checkbox_input {
+    cursor: pointer;
+}
+
+.clientSection_cont_form-checkbox_label_txt {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
+    color: #FFFFFF;
+}
+
+.clientSection_cont_form_reg_saveInf {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 19px 22px;
+    margin-top: 39px;
+    margin-left: 244px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    width: 213px;
+    cursor: pointer;
 }
