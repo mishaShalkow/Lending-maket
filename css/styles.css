@@ -1,6 +1,11 @@
 @font-face {
-    src: url("../fonts/NunitoSans-ExtraLight.ttf");
+    src: url("../fonts/NunitoSans-Regular.ttf");
     font-family: 'Nunito Sans';
+}
+
+@font-face {
+    src: url("../fonts/YesevaOne-Regular.ttf");
+    font-family: 'Yeseva One';
 }
 
 body {
@@ -191,7 +196,7 @@ body * {
     height: 24px;
     list-style: none;
     display: flex;
-    left: 550px;
+    justify-content: flex-end;
     padding-top: 107px;
     margin: 0 auto;
 }
@@ -571,6 +576,7 @@ body * {
     top: 133px;
     left: 53px;
     text-align: center;
+    box-sizing: content-box;
 }
 
 .clientSection_cont {
@@ -613,6 +619,7 @@ body * {
     font-size: 14px;
     line-height: 19px;
     color: #363636;
+    box-sizing: content-box;
 }
 
 .clientSection_cont_txt {
@@ -727,4 +734,297 @@ body * {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
     width: 213px;
     cursor: pointer;
+}
+
+.clientSection-logo {
+    display: flex;
+    margin-top: 38px;
+}
+
+.clientSection-logo_txt {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.ourClient-title {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+    margin-top: 120px;
+}
+
+.ourClient {
+    height: 642px;
+}
+
+.ourClient-img {
+    display: flex;
+    justify-content: center;
+}
+
+.ourClient-img_txt {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+
+.ourClient-content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ourClient-content_block {
+    position: relative;
+}
+
+.ourClient-content_img {
+    padding-top: 50px;
+}
+
+.ourClient-content_name {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-top: -60px;
+    margin-left: 110px;
+}
+
+.ourClient-content_txt {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    width: 324px;
+    padding-top: 39px;
+    align-items: center;
+}
+
+.ourClient-form_fon {
+    background-size: contain;
+    padding-top: 92px;
+    height: 354px;
+    background-image: url('../images/ourClient-gorod.png');
+    background-repeat: repeat;
+    position: relative;
+}
+
+.ourClient-form_fon_img {
+    position: relative;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.ourClient-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.ourClient-form_inf {
+    width: 883px;
+    height: 446px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+
+.ourClient-form_title {
+    padding-top: 34px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ourClient-form_inf_vvod {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 45px;
+    margin-bottom: 48px;
+    padding-left: 181px;
+
+}
+
+.ourClient-form_div {
+    margin-top: -288px;
+}
+
+.ourClient-inf_client {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ourClient-vvodInf {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #131313;
+    width: 231px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    margin-right: 58px;
+}
+
+.ourClient-form_inf_vvodQuest {
+    padding-left: 181px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #131313;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+.ourClient-vvodInf1 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #131313;
+    width: 517px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    margin-right: 58px;
+}
+
+.ourClient-form-checkbox {
+    margin-top: 48px;
+    margin-left: 300px;
+}
+
+.ourClient-form-checkbox_label_form{
+    display: inline-flex;
+    position: relative;
+    left: -20px;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+}
+.ourClient-form-checkbox_label_form::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.ourClient-form-checkbox_input:checked + .ourClient-form-checkbox_label_form::before{
+    opacity: 1;
+}
+
+.ourClient-form-checkbox_label_txt {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
+    color: #FFFFFF;
+}
+
+.ourClient-form_submit {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    padding: 20px 54px;
+    width: 200px;
+    height: 51px;
+    margin-top: 50px;
+    margin-left: 341px;
+    cursor: pointer;
+}
+
+.lastBlock {
+    position: relative;
+    background-size: cover;
+    background-image: url('../images/lastBlock.png');
+}
+
+.lastBlock-cont_img {
+    position: relative;
+    background-image: url('../images/lastBlock.png');
+    height: 953px;
+    margin-top: 222px;
+    z-index: -1;
+}
+
+.lastBlock-cont_overlay {
+    background-color: rgba(0, 0, 0, .8);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 110px;
+}
+
+.lastBlock-cont_txt {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-top: 274px;
+}
+
+.lastBlock-cont_contact {
+    margin-left: 683px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.lastBlock-con_map {
+    margin-top: 43px;
+    margin-left: 255px;
 }
