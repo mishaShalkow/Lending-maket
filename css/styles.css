@@ -760,11 +760,11 @@ body * {
     text-align: center;
     text-transform: uppercase;
     color: #181818;
-    margin-top: 120px;
+    margin-top: 181px;
 }
 
 .ourClient {
-    height: 642px;
+    height: 1100px;
 }
 
 .ourClient-img {
@@ -835,21 +835,21 @@ body * {
     background-color: rgba(255, 255, 255, 0.95);
 }
 
-.ourClient-form {
+.Client-form {
     display: flex;
     justify-content: center;
     position: relative;
     z-index: 1;
 }
 
-.ourClient-form_inf {
+.Client-form_inf {
     width: 883px;
     height: 446px;
     background: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
 }
 
-.ourClient-form_title {
+.Client-form_title {
     padding-top: 34px;
     font-family: Yeseva One;
     font-style: normal;
@@ -861,7 +861,7 @@ body * {
     color: #FFFFFF;
 }
 
-.ourClient-form_inf_vvod {
+.Client-form_inf_vvod {
     display: flex;
     justify-content: space-between;
     width: 400px;
@@ -871,11 +871,11 @@ body * {
 
 }
 
-.ourClient-form_div {
+.Client-form_div {
     margin-top: -288px;
 }
 
-.ourClient-inf_client {
+.Client-form-inf_client {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
@@ -884,7 +884,7 @@ body * {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.ourClient-vvodInf {
+.Client-form-vvodInf {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
@@ -899,7 +899,7 @@ body * {
     margin-right: 58px;
 }
 
-.ourClient-form_inf_vvodQuest {
+.Client-form_inf_vvodQuest {
     padding-left: 181px;
     font-family: Nunito Sans;
     font-style: normal;
@@ -913,7 +913,7 @@ body * {
     border-right: 0;
 }
 
-.ourClient-vvodInf1 {
+.Client-form-vvodInf1 {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
@@ -928,12 +928,12 @@ body * {
     margin-right: 58px;
 }
 
-.ourClient-form-checkbox {
+.Client-form-form-checkbox {
     margin-top: 48px;
     margin-left: 300px;
 }
 
-.ourClient-form-checkbox_label_form{
+.Client-form-checkbox_label_form{
     display: inline-flex;
     position: relative;
     left: -20px;
@@ -944,16 +944,16 @@ body * {
     justify-content: center;
     cursor: pointer;
 }
-.ourClient-form-checkbox_label_form::before{
+.Client-form-checkbox_label_form::before{
     content:"\2714";
     opacity: 0;
     transition: .2s;
 }
-.ourClient-form-checkbox_input:checked + .ourClient-form-checkbox_label_form::before{
+.Client-form-checkbox_input:checked + .Client-form-checkbox_label_form::before{
     opacity: 1;
 }
 
-.ourClient-form-checkbox_label_txt {
+.Client-form-checkbox_label_txt {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
@@ -963,7 +963,7 @@ body * {
     color: #FFFFFF;
 }
 
-.ourClient-form_submit {
+.Client-form_submit {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
@@ -988,22 +988,24 @@ body * {
     background-image: url('../images/lastBlock.png');
 }
 
-.lastBlock-cont_img {
-    position: relative;
-    background-image: url('../images/lastBlock.png');
+.lastBlock-cont_content {
+    margin: 0;
     height: 953px;
-    margin-top: 222px;
-    z-index: -1;
+    margin-top: -219px;
+    position: relative;
+    padding-top: 270px;
+    z-index: 0
 }
 
 .lastBlock-cont_overlay {
-    background-color: rgba(0, 0, 0, .8);
-    height: 100%;
+    content: '';
     position: absolute;
-    width: 100%;
-    top: 0;
+    right: 0;
     left: 0;
-    margin-top: 110px;
+    bottom: 0;
+    top: 0;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+    z-index: -1;
 }
 
 .lastBlock-cont_txt {
@@ -1015,16 +1017,24 @@ body * {
     text-align: center;
     text-transform: uppercase;
     color: #E3B873;
-    padding-top: 274px;
 }
 
 .lastBlock-cont_contact {
-    margin-left: 683px;
-    margin-right: 15px;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
 }
 
-.lastBlock-con_map {
-    margin-top: 43px;
-    margin-left: 255px;
+.lastBlock-cont-messag {
+    margin: 0 15px;
+}
+
+.lastBlock-cont_content_img {
+    margin-top: 35px;
+    background-image: url('../images/lastBlock_map.png');
+    width: 917px;
+    height: 465px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
 }
